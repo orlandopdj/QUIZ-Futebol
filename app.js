@@ -51,6 +51,8 @@ form.addEventListener('submit', event => {
             form.inputQuestion3[0].checked = true
             form.inputQuestion4[0].checked = true
             form.inputQuestion5[0].checked = true
+            userRespostas.forEach(item => item = 'A')
+            score = 0
         })
     }
     gabarito.forEach((pergunta, i) => {
